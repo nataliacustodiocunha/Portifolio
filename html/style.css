@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #D3D3D3;
+    color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.apresentacao {
+    width: 593px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo_pagina {
+    font-family: "Merriweather", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 32px 0;
+}
+
+.linguagem {
+    color: #113fd7;
+}
+.destaque_titulo {
+    color: #113fd7;
+}
+
+.botoes {
+    padding: 32px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.botao {
+    background-color: #113fd7;
+    width: 230px;
+    text-align: center;
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 16px;
+    color: #D3D3D3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px #113fd7;
+  }
+
+.imagem {
+    width: 464px;
+    height: 532px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.imagem:hover {
+    box-shadow: 0 0 20px 5px #113fd7; 
+    transform: scale(1.02);
+}
